@@ -4,7 +4,7 @@ import jwt from "jsonwebtoken";
 import { tokenExpires, tokenSecret } from "../config/index.js";
 
 
-console.log(tokenExpires, tokenSecret , "tokenExpires, tokenSecret");
+// console.log(tokenExpires, tokenSecret , "tokenExpires, tokenSecret");
 
 const userSchema = new Schema({
   email: {
